@@ -5,6 +5,7 @@ setup(
     version='0.1',
     author=u'Maurizio Turatti',
     author_email='maurizio@softinstigate.com',
+    url = "https://github.com/SoftInstigate/lektor-gulp",
     license='BSD',
     py_modules=['lektor_gulp'],
     entry_points={
