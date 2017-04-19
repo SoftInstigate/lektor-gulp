@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='lektor-gulp',
-    version='0.2',
+    version='0.3',
     author=u'Maurizio Turatti',
     author_email='maurizio@softinstigate.com',
     description=u'A simple Lektor plugin for gulp',
