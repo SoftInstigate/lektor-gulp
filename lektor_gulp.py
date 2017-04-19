@@ -8,7 +8,7 @@ from lektor.utils import portable_popen
 
 class GulpPlugin(Plugin):
     name = u'lektor-gulp'
-    description = u'Execute gulp from Lektor'
+    description = u'A simple Lektor plugin for gulp'
 
     def __init__(self, *args, **kwargs):
         Plugin.__init__(self, *args, **kwargs)
