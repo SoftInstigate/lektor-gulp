@@ -30,3 +30,7 @@ In this case, each time one touchs Javascript or CSS files in the lib/ folder th
 ## Credits ##
 
 This plugin is mostly a clone of the official [Webpack plugin](https://github.com/lektor/lektor-webpack-support) with very little differences.
+
+<hr></hr>
+
+_Made with :heart: by [The SoftInstigate Team](http://www.softinstigate.com/). Follow us on [Twitter](https://twitter.com/softinstigate)_.
