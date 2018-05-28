@@ -1,16 +1,25 @@
-from setuptools import setup
+from setuptools import setup, find_packages
+
+with open("README.md", "r") as fh:
+    readme = fh.read()
 
 setup(
     name='lektor-gulp',
-    version='0.3',
+    version='0.3.1',
     author=u'Maurizio Turatti',
     author_email='maurizio@softinstigate.com',
     description=u'A simple Lektor plugin for gulp',
     url = "https://github.com/SoftInstigate/lektor-gulp",
     license='BSD',
+    keywords='Lektor gulp plugin static-site CMS',
+    long_description=readme,
+    long_description_content_type='Markdown',
+    packages=find_packages(),
     py_modules=['lektor_gulp'],
     classifiers=[
+        'Framework :: Lektor',
         'Environment :: Web Environment',
+        'Environment :: Plugins',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
         'Operating System :: OS Independent',
