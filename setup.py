@@ -5,7 +5,7 @@ with open("README.rst", "r") as fh:
 
 setup(
     name='lektor-gulp',
-    version='0.3.1',
+    version='0.3.2',
     author=u'Maurizio Turatti',
     author_email='maurizio@softinstigate.com',
     description=u'A simple Lektor plugin for gulp',
