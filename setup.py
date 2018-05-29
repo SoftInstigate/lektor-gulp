@@ -13,7 +13,7 @@ setup(
     license='BSD',
     keywords='Lektor gulp plugin static-site CMS',
     long_description=readme,
-    long_description_content_type='Markdown',
+    long_description_content_type='text/markdown',
     packages=find_packages(),
     py_modules=['lektor_gulp'],
     classifiers=[
